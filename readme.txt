@@ -11,20 +11,22 @@ Adds monthly Bhutanese Calendar from year 1900 to 2099.
 
 == Description ==
 
-This plugin lets you add monthly Bhutanese calendar from the year 1900 to 2099. Bhutanese  calendar data is extracted from <a href="http://www.kalacakra.org/calendar/bhutlist.htm">Open Source Bhutanese Calendar software</a>.
+This plugin lets you add monthly Bhutanese calendar from the year 1900 to 2099. Bhutanese  calendar data extracted from <a href="http://www.kalacakra.org/calendar/bhutlist.htm">Open Source Bhutanese Calendar software</a>.
 
 
 <h4>Features</h4>
 
-1. Adds monthly Bhutanese Calendar onto Widget, Pate/Post or directly on Wordpress template
+1. Adds monthly Bhutanese Calendar onto Widget, Pate/Post or directly onto Wordpress template file
 2. Calendar data available from year 1900 to 2099
 3. You can navigate to any specific month
 4. Shows the name of Bhutanese year and month (and of course date)
 
 <h4>Future Development</h4>
-1. Display Bhutanese calendar for one whole year
+1. Display Bhutanese calendar for a year
 2. Add Bhutanese holidays
 3. Conversion between Bhutanese and Western Calendar date
+
+(All these features available on <a href="http://www.bhutanesecalendar.com" target="_blank">bhutanesecalendar.com</a>
 
 
 == Changelog ==
@@ -37,7 +39,7 @@ Initial version (Released on 6 April 2014)
 
 You can either install it automatically from the WordPress admin, or do it manually:
 
-1. Unzip the archive and put the `bhutanesecalendar` folder into your plugins folder '/wp-content/plugins/'.
+1. Unzip the archive and put the <strong>bhutanesecalendar</strong> folder into your plugins folder <strong>/wp-content/plugins/</strong>.
 1. Activate the plugin from the Plugins menu.
 
 = Usage =
@@ -46,14 +48,11 @@ After installing the Plugin, go to Settings page and choose colors options to ma
 
 Then you can display the calendar through three different ways:
 
-1. Widget
-On your Wordpress Dashboard, check 'Appearance -> Widget'. You will see a Widget called 'Bhutanese Calendar Widget'. Simply drag it to your widget area, tick the options and viola!
+1. <em>Widget:</em> on your Wordpress Dashboard, check <strong>Appearance -> Widget</strong>. You will see a widget called <strong>Bhutanese Calendar Widget</strong>. Simply drag it to your widget area, tick the options and viola!
 
-2. Use Shortcode
-You can use Shortcode '[bhutanese_calendar_month]' to show the calendar on Posts/Pages. Optionally, pass arguments "year", "month", "navi" and "links" to the Shortcode, eg.'[bhutanese_calendar_month year="true" month="true" navi="true" link="true"]'
+2. <em>Use Shortcode:</em> You can use Shortcode <strong>[bhutanese_calendar_month]</strong> to show the calendar on Posts/Pages. Optionally, pass arguments "year", "month", "navi" and "links" to the Shortcode, eg. <strong>[bhutanese_calendar_month year="true" month="true" navi="true" link="true"]</strong>.
 
-3. Directly on Wordpress template
-You can also directly paste code '<?php bhutanese_calendar_month (true,true,true,true);?>' onto any template.
+3. <em>Directly on Wordpress template:</em> You can also directly paste code <strong><?php bhutanese_calendar_month (true,true,true,true);?></strong> onto any template.
 
 == Frequently Asked Questions ==
 
@@ -61,3 +60,7 @@ You can also directly paste code '<?php bhutanese_calendar_month (true,true,true
 The calendar data is extracted from <a href="http://www.kalacakra.org/calendar/bhutlist.htm">Open Source Bhutanese Calendar software</a>
 
 == Screenshots ==
+
+`/assets/screenshot_widget.png`
+
+`/assets/screenshot_options.png`
