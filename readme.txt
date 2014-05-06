@@ -61,6 +61,6 @@ The calendar data is extracted from <a href="http://www.kalacakra.org/calendar/b
 
 == Screenshots ==
 
-1. Widget example
+1. Options Setting
 
-2. Options setting
+2. Widget Example
