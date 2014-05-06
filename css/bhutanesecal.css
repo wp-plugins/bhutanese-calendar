@@ -1,0 +1,258 @@
+/* Dzongkha fonts */
+@font-face {
+    font-family: 'uchen';
+    src: url('../fonts/uchen-webfont.eot');
+    src: url('../fonts/uchen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/uchen-webfont.woff') format('woff'),
+         url('../fonts/uchen-webfont.ttf') format('truetype'),
+         url('../fonts/uchen-webfont.svg#uchen') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btcal {
+	width:100%;
+	float:left;
+}
+
+.btcal .dzongkha {
+	font-family:"uchen";
+	line-height:100%;
+}
+.btcal .input_select{
+	height:28px !important;
+	border:1px solid #ddd;
+	padding: 3px 6px 7px 7px !important;
+	font-size:14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.btcal .input_select_month {
+}
+.btcal .input_select_year {
+}
+.btcal select:focus,
+.btcal input:focus,
+.btcal button:focus {
+	outline:none;
+}
+
+.btcal .submit_btn {
+	background:#eee;
+	height:27px;
+	border:none;
+	padding:0 8px;
+	color:#666 !important;
+	font-size:14px;
+	outline:none !important;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    0px 0px 7px 0px rgba(50, 50, 50, 0.4);
+	box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.4);
+}
+.btcal .submit_btn:hover {
+	background:#ddd;
+	cursor:pointer;
+	color:#000;
+}
+
+.btcal .year_heading,
+.btcal .month_heading,
+.btcal .month_year_form {
+	text-align:center;
+	padding-top:15px;
+	width:100%;
+	float:left;
+}
+
+/* Year Heading */
+.btcal .year_heading {
+	color:#fc7708;
+}
+	.btcal .year_heading,
+	.btcal .year_heading h2 {
+		font-size:16px;
+	}
+	.btcal .year_heading h2 {
+		margin:0px 0 10px 0;
+	}
+	.btcal .year_heading .dzongkha {
+		font-size:20px;
+	}
+
+/* Month Heading */
+.btcal .month_heading {
+	padding-top:10px;
+	color:#666;
+}
+	.btcal .month_heading h2,
+	.btcal .month_heading .dzongkha {
+		font-size:14px;
+	}
+	.btcal .month_heading .dzongkha {
+		font-size:18px;
+	}
+	.btcal .month_heading h2 {
+		margin:0px 0 5px 0;
+	}
+	
+/* Dates of month */
+.btcal .month_year_form {
+	padding-bottom:15px;
+	white-space: nowrap;
+}
+	#year #day_heading .dzongkha {
+		font-size:11px;
+	}
+
+/* Calendar */
+.btcal .calendar {
+	width:100%;
+	float:left;
+}
+	
+/* Cells */
+.btcal .cell {
+	float:left;
+	text-align:center;
+	width:13.85%;
+	padding:10px 0;
+	margin-right:0.5%;
+	margin-top:0.5%;
+	white-space:nowrap;
+	min-height:48px;
+}
+	.btcal .cell span {
+		display:block;
+	}
+	.btcal cell_day {
+		color:#222;
+	}
+	.btcal .cell_day .dzongkha {
+		margin-top:10px;
+	}
+	.btcal .cell .day_eng {
+		font-size:14px;
+	}
+	
+	.btcal .cell .date_dz,
+	.btcal .cell .date_eng {
+		padding:0;
+		line-height:25px;
+		width:80%;
+		margin-left:10%;
+	}
+	.btcal .cell .date_dz { 
+		text-align:left;
+		font-size:24px;
+	}
+	.btcal .cell .date_eng {
+		text-align:right;
+	}
+	
+	.btcal .cell_day {
+		background:#fd9945;
+		color:#666;
+	}
+	.btcal .cell_date {
+		background:#ffe1c8;
+	}
+	.btcal .today {
+		background:#fc7708;
+		color:#fff;
+	}
+	
+	.btcal .cell_blank {
+		background:#fafafa
+	}
+	.btcal .cell_occasion {
+		background:#ddd;
+	}
+	.btcal .cell_occasion:hover {
+		background:#ccc;
+		cursor:pointer;
+	}
+	.btcal .cell_col_1 {
+		margin-left:0;
+	}
+	.btcal .cell_col_7 {
+		margin-right:0;
+	}
+
+/* Cell style for widget */
+.widget .btcal .cell {
+	padding:3px 0;
+	min-height:34px;
+}
+	.widget .btcal .cell_day .dzongkha {
+		font-size:10px;
+		margin-top:5px;
+	}
+	 .widget .btcal .cell .day_eng,
+	 .widget .btcal .cell {
+		 font-size:11px;
+	 }
+	 .widget .btcal .cell .date_dz { 
+		font-size:14px;
+		margin-top:2px;
+	}
+	.widget .btcal .cell .date_dz,
+	.widget .btcal .cell .date_eng {
+		line-height:16px;
+	}
+
+/* Powered by */
+.btcal_poweredby {
+	text-align:left;
+	margin-top:10px;
+	float:left;
+}
+
+/* 
+	/* Tool tip 
+	div.tooltip { outline:none; }
+	div.tooltip strong {line-height:30px;}
+	div.tooltip:hover {text-decoration:none;} 
+	div.tooltip p {
+		z-index:10;display:none; padding:10px 15px;
+		margin-top:-5px; margin-left:18px;
+		width:150px; line-height:18px;
+		font-size:14px;
+		font-weight:300;
+		font-family:"Lato",Tahoma, Geneva, sans-serif;
+		text-align:left;
+	}
+	div.tooltip:hover p{
+		display:inline; position:absolute; color:#fff;
+		background:#fd9945;}
+		
+	/*CSS3 extras 
+	a.tooltip p
+	{
+		border-radius:4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+			
+		-moz-box-shadow: 5px 5px 8px #CCC;
+		-webkit-box-shadow: 5px 5px 8px #CCC;
+		box-shadow: 5px 5px 8px #CCC;
+	}
+
+/* Occasion 
+#occasion {
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 14px;
+	line-height: 22px;
+}
+	#occasion em {
+		font-weight:400;
+		width:60px;
+		float:left;
+	}
+	*/
