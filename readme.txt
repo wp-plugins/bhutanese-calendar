@@ -39,7 +39,7 @@ Initial version (Released on 6 April 2014)
 
 You can either install it automatically from the WordPress admin, or do it manually:
 
-1. Unzip the archive and put the <strong>bhutanesecalendar</strong> folder into your plugins folder <strong>/wp-content/plugins/</strong>.
+1. Unzip the archive and put the <strong>bhutanese-calendar</strong> folder into your plugins folder <strong>/wp-content/plugins/</strong>.
 1. Activate the plugin from the Plugins menu.
 
 = Usage =
@@ -52,7 +52,7 @@ Then you can display the calendar through three different ways:
 
 2. <em>Use Shortcode:</em> You can use Shortcode <strong>[bhutanese_calendar_month]</strong> to show the calendar on Posts/Pages. Optionally, pass arguments "year", "month", "navi" and "links" to the Shortcode, eg. <strong>[bhutanese_calendar_month year="true" month="true" navi="true" link="true"]</strong>.
 
-3. <em>Directly on Wordpress template:</em> You can also directly paste code <strong>[?php bhutanese_calendar_month (true,true,true,true);?] </strong> onto any template. <br /><em>(Replace the [] with html greater/less than signs)</em>
+3. <em>Directly on Wordpress template:</em> You can also directly paste code <strong>&lt;?php bhutanese_calendar_month (true,true,true,true);?&gt; </strong> onto any template.
 
 == Frequently Asked Questions ==
 
