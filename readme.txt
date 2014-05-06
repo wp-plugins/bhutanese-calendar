@@ -30,7 +30,7 @@ This plugin lets you add monthly Bhutanese calendar from the year 1900 to 2099. 
 == Changelog ==
 
 = 1.00 =
-Initial version
+Initial version (Released on 6 April 2014)
 
 
 == Installation ==
