@@ -26,7 +26,7 @@ This plugin lets you add monthly Bhutanese calendar from the year 1900 to 2099. 
 2. Add Bhutanese holidays
 3. Conversion between Bhutanese and Western Calendar date
 
-(All these features available on <a href="http://www.bhutanesecalendar.com" target="_blank">bhutanesecalendar.com</a>
+(All these features available on <a href="http://www.bhutanesecalendar.com" target="_blank">bhutanesecalendar.com</a>)
 
 
 == Changelog ==
@@ -52,7 +52,7 @@ Then you can display the calendar through three different ways:
 
 2. <em>Use Shortcode:</em> You can use Shortcode <strong>[bhutanese_calendar_month]</strong> to show the calendar on Posts/Pages. Optionally, pass arguments "year", "month", "navi" and "links" to the Shortcode, eg. <strong>[bhutanese_calendar_month year="true" month="true" navi="true" link="true"]</strong>.
 
-3. <em>Directly on Wordpress template:</em> You can also directly paste code <strong><?php bhutanese_calendar_month (true,true,true,true);?></strong> onto any template.
+3. <em>Directly on Wordpress template:</em> You can also directly paste code <strong>'<?php bhutanese_calendar_month (true,true,true,true);?>'</strong> onto any template.
 
 == Frequently Asked Questions ==
 
