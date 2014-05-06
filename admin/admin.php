@@ -95,4 +95,12 @@ function btcal_admin_page() { ?>
    </table>
     <?php submit_button(); ?>
     </form>
+    
+    <h3>Usage</h3>
+    1. <em>Widget:</em> on your Wordpress Dashboard, check <strong>Appearance -> Widget</strong>. You will see a widget called <strong>Bhutanese Calendar Widget</strong>. Simply drag it to your widget area, tick the options and viola!
+
+2. <em>Use Shortcode:</em> You can use Shortcode <strong>[bhutanese_calendar_month]</strong> to show the calendar on Posts/Pages. Optionally, pass arguments "year", "month", "navi" and "links" to the Shortcode, eg. <strong>[bhutanese_calendar_month year="true" month="true" navi="true" link="true"]</strong>.
+
+3. <em>Directly on Wordpress template:</em> You can also directly paste code <strong><?php bhutanese_calendar_month (true,true,true,true);?></strong> onto any template.
+
 <?php } ?>
