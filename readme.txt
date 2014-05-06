@@ -7,7 +7,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 Stable tag: trunk
 
-Adds monthly Bhutanese Calendar from the year 1900 to 2099.
+Adds monthly Bhutanese Calendar from year 1900 to 2099.
 
 == Description ==
 
