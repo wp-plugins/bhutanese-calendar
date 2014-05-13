@@ -21,7 +21,7 @@ function install_btcal_table() {
 	global $wpdb;
 	$thetable= $wpdb->prefix."bhutanese_calendar";
 	
-	if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $thetable) {
+	if($wpdb->get_var("SHOW TABLES LIKE '$thetable'") != $thetable) {
 			$sql = "DROP table $thetable;CREATE TABLE $thetable (
 		  `entry_id` int(11) NOT NULL AUTO_INCREMENT,
 		  `dayname` varchar(3) DEFAULT NULL,
