@@ -21,17 +21,17 @@ function btcal_register_options(){
 //Function to add link to Bhutan Calendar setting page under WP Settings
 function btcal_admin_links() {
 	add_options_page('Bhutanese Calendar Setup', 'Bhutanese Calendar', 'manage_options', 'btcal', 'btcal_admin_page' );  
-	add_filter( 'plugin_action_links', 'btcal_settings_link', 10, 2 );  
+	//add_filter( 'plugin_action_links', 'btcal_settings_link', 10, 2 );  
 }
 
 //Function to add link to Setting on WP Plugin list
-function btcal_settings_link($links, $file){
+//function btcal_settings_link($links, $file){
     //if ( $file == plugin_basename( dirname(__FILE__). '/bhutanesecalendar.php')){
-		$settings_link = '<a href="options-general.php?page=btcal">' .__('Settings') . '</a>';
-		array_unshift( $links, $settings_link ); // place before other links
+		//$settings_link = '<a href="options-general.php?page=btcal">' .__('Settings') . '</a>';
+		//array_unshift( $links, $settings_link ); // place before other links
    // }
-	return $links;
-}
+	//return $links;
+//}
 
 // Options input validation
 function btcal_validate($input) {
