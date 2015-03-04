@@ -16,7 +16,7 @@ This plugin lets you add monthly Bhutanese calendar from the year 1900 to 2099. 
 
 <h4>Features</h4>
 
-1. Adds monthly Bhutanese Calendar onto Widget, Pate/Post or directly onto Wordpress template file
+1. Adds monthly Bhutanese Calendar on Widget, Pate/Post or directly onto Wordpress template file
 2. Calendar data available from year 1900 to 2099
 3. You can navigate to any specific month
 4. Shows the name of Bhutanese year and month (and of course date)
