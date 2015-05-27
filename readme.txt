@@ -1,6 +1,6 @@
 === Bhutanese Calendar ===
 Contributors: sangay
-Tags: Bhutanese Calendar, Bhutan Calendar, Bhutan Lunar Calendar, Bhutan Year, Bhutan Month, Bhutan Date  
+Tags: Bhutanese Calendar, Bhutan Calendar  
 Requires at least: 3.2  
 Tested up to: 3.9  
 License: GPLv2 or later  
