@@ -11,7 +11,7 @@ Adds monthly Bhutanese Calendar from year 1900 to 2099.
 
 == Description ==
 
-This plugin lets you add monthly Bhutanese calendar from the year 1900 to 2099. Bhutanese  calendar data extracted from <a href="http://www.kalacakra.org/calendar/bhutlist.htm">Open Source Bhutanese Calendar software</a>.
+This plugin adds monthly Bhutanese calendar from the year 1900 to 2099. Bhutanese  calendar data extracted from <a href="http://www.kalacakra.org/calendar/bhutlist.htm">Open Source Bhutanese Calendar software</a>.
 
 
 <h4>Features</h4>
